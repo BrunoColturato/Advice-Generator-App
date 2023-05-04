@@ -16,6 +16,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### The challenge
 
+The challenge is to build out a device generator app using the [Advice Slip API](https://api.adviceslip.com/).
+
 Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
@@ -35,6 +37,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JavaScript
+- [Advice Slip JSON API](https://api.adviceslip.com/)
 
 ### What I learned
 I learned that Firefox can cache data obtained from the API. In this current app, this was a bad thing, so I had to set the "no-cache" option on `fetch`.
