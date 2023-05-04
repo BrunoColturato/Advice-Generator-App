@@ -50,6 +50,21 @@ const APIResponse = await fetch(
 );
 ```
 
+I also learned to use the `<picture>` HTML tag to dynamically use images based on screen size. Thanks to [Kevin Powell](https://github.com/kevin-powell) for teaching me how to use it in his [shorts](https://www.youtube.com/shorts/d9i68C628Nk).
+
+``` html
+  <picture>
+    <source 
+      media="(min-width: 500px)" 
+      srcset="./images/pattern-divider-desktop.svg">
+    <img 
+      src="./images/pattern-divider-mobile.svg" 
+      alt="divider" 
+      class="divider" />
+  </picture>
+```
+
+
 ## Author
 
 - Website - [Bruno Alvarenga Colturato](https://brunocolturato.github.io)
