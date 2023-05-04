@@ -71,10 +71,18 @@ body {
   padding: 3rem;
   padding-bottom: 4.5rem;
   margin-inline: 1rem;
+  margin-bottom: 1rem;
 
   border-radius: 1rem;
   background-color: hsl(var(--clr-neutral-hsl-light), 0.4);
   position: relative;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 2rem;
+    padding-bottom: 4.5rem;
+  }
 }
 
 .card h1 {
@@ -88,6 +96,10 @@ body {
 .card p {
   font-size: var(--fs-big);
   font-weight: var(--fw-black);
+}
+
+.card picture img {
+  width: 100%;
 }
 
 .button {
@@ -136,4 +148,10 @@ footer {
 
 footer a {
   color: #ddd;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.7rem;
+  }
 }
